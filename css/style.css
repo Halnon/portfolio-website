@@ -1,12 +1,12 @@
 /* universal styles */
 
 html {
-    font-family: 'Armata';
+    font-family: 'Assistant', sans-serif, serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: rgb(35, 109, 38);
+    background-color: rgb(255, 255, 255);
 }
 
 /* header styles */
@@ -27,8 +27,8 @@ nav {
     right: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgb(35, 109, 38);
-    /* outline: 2px solid red; */
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid red;
 }
 
 nav ul {
@@ -56,4 +56,43 @@ a:hover {
 a:active {
     color: antiquewhite;
     background-color:cadetblue;
+}
+
+/* main styles start */
+
+#introduction {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    top: 5em;
+    padding: 1rem;
+    outline: 2px solid red;
+}
+
+#introduction img {
+    position: relative;
+    display: inline-flex;
+    width: 30%;
+    height: auto;
+    border-radius: 50rem;
+    padding: 1rem;
+}
+
+#introduction h1 {
+    font-size: 2rem;
+    padding: 3rem;
+    outline: 2px solid red;
+}
+
+#introduction .section-item {
+    position: relative;
+    outline: 2px solid red;
+}
+
+.container {
+    position: relative;
+    display: inline-flex;
+    margin: 10em 10em;
+    outline: 2px solid red;
 }
