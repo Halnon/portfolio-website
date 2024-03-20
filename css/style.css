@@ -1,0 +1,59 @@
+/* universal styles */
+
+html {
+    font-family: 'Armata';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(35, 109, 38);
+}
+
+/* header styles */
+
+header {
+    position: relative;
+    top: 50px;
+    display: inline-flex;
+    gap: 4rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(35, 109, 38);
+    /* outline: 2px solid red; */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 0.1rem;
+    letter-spacing: 0.3rem;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(110, 196, 121);
+    padding: 0.5% 5% 0.5% 5%;
+}
+
+a:hover {
+    color:antiquewhite;
+    background-color: black;
+}
+
+a:active {
+    color: antiquewhite;
+    background-color:cadetblue;
+}
