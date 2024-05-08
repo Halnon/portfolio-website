@@ -4,9 +4,16 @@ html {
     font-family: 'Assistant', sans-serif, serif;
     box-sizing: border-box;
     margin: 0;
+    text-align: justify;
     padding: 0;
     width: 100%;
     background-color: rgb(255, 255, 255);
+}
+
+.container {
+    position: relative;
+    margin: 2em 2em;
+    outline: 2px solid red;
 }
 
 /* header styles */
@@ -60,13 +67,14 @@ a:active {
 
 /* main styles start */
 
+/* about me styles */
+
 #introduction {
     display: flex;
     position: relative;
-    justify-content: space-between;
     align-items: center;
     top: 5em;
-    padding: 1rem;
+    margin-bottom: 5.5rem;
     outline: 2px solid red;
 }
 
@@ -81,18 +89,17 @@ a:active {
 
 #introduction h1 {
     font-size: 2rem;
-    padding: 3rem;
+    padding: 3rem 1rem;
     outline: 2px solid red;
 }
 
-#introduction .section-item {
+#section-item {
     position: relative;
     outline: 2px solid red;
+    margin: 0 0.5rem;
 }
 
-.container {
-    position: relative;
-    display: inline-flex;
-    margin: 10em 10em;
-    outline: 2px solid red;
-}
+/* my projects styles */
+
+
+
