@@ -101,5 +101,11 @@ a:active {
 
 /* my projects styles */
 
+#projects {
+    display: flex;
+}
 
-
+#projects .item {
+    margin: 0 1rem 0 0;
+    padding: 0.3rem 0;
+}
