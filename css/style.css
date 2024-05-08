@@ -1,5 +1,15 @@
 /* universal styles */
 
+:root {
+    --primary-color: #818181;
+    --secondary-color: #d8d8d8;
+}
+
+.dark-theme {
+    --primary-color: #ffffff;
+    --secondary-color: #353535;
+}
+
 html {
     font-family: 'Assistant', sans-serif, serif;
     box-sizing: border-box;
@@ -7,9 +17,10 @@ html {
     text-align: justify;
     padding: 0;
     width: 100%;
-    background: #CFCFCF;
-    background: radial-gradient(ellipse farthest-side at top left, #CFCFCF 22%, #AC9E98 50%, #6F0B0A 100%);
+}
 
+body {
+    background-color: var(--secondary-color);
 }
 
 .container {
@@ -39,7 +50,8 @@ nav {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255); opacity: 0.7;;
+    background-color: var(--secondary-color);
+    opacity: 0.7;
     z-index: 10;
     /* outline: 2px solid red; */
 }
@@ -52,23 +64,30 @@ nav ul {
 nav a {
     display: inline-block;
     text-decoration: none;
-    border: 2px solid black;
     margin: 0.1rem;
     letter-spacing: 0.3rem;
     font-weight: bolder;
-    color: rgb(255, 255, 255);
-    background-color: brown;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 0.5% 5% 0.5% 5%;
 }
 
 a:hover {
     color:antiquewhite;
-    background-color: black;
+    background-color: var(--secondary-color);
 }
 
 a:active {
     color: antiquewhite;
     background-color:cadetblue;
+}
+
+#moon-icon {
+    float: right;
+    margin: 0.5rem 6rem;
+    width: 30px;
+    cursor: pointer;
+    background-color: var(--primary-color);
 }
 
 /* main styles start */
@@ -91,7 +110,7 @@ a:active {
     max-width: 23%;
     height: auto;
     border-radius: 50rem;
-    box-shadow: 0px 0px 14px 11px rgba(128, 0, 0, 0.43);
+    box-shadow: 0px 0px 14px 11px #8000006e;
 }
 
 #introduction h1 {
