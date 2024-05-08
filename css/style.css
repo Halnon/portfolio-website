@@ -98,7 +98,7 @@ a:active {
     position: relative;
     font-size: 2rem;
     padding: 0 2rem;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 #section-item {
@@ -129,4 +129,21 @@ a:active {
 .skill--items i {
     font-size: 5rem;
     color: #d38585;
+}
+
+/* contact me styles */
+
+.contact--items {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.contact--items i {
+    font-size: 4rem;
+    color: #d38585;
+}
+
+.contact--items i:hover {
+    color: rgb(214, 181, 181);
 }
