@@ -50,8 +50,8 @@ nav a {
     margin: 0.1rem;
     letter-spacing: 0.3rem;
     font-weight: bolder;
-    color: black;
-    background-color: rgb(110, 196, 121);
+    color: rgb(255, 255, 255);
+    background-color: brown;
     padding: 0.5% 5% 0.5% 5%;
 }
 
@@ -108,4 +108,17 @@ a:active {
 #projects .item {
     margin: 0 1rem 0 0;
     padding: 0.3rem 0;
+}
+
+/* tech skills styles */
+
+.skill--items {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.skill--items i {
+    font-size: 5rem;
+    color: brown;
 }
