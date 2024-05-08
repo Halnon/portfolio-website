@@ -165,3 +165,32 @@ a:active {
 .contact--items i:hover {
     color: rgb(214, 181, 181);
 }
+
+/* main styles end */
+
+/* media queries */
+
+/* mobile queries */
+@media only screen and (min-width: 200px) and  (max-width: 480px) {
+
+}
+
+/* tablet portrait queries */
+@media only screen and (min-width: 481px) and  (max-width: 768px) {
+
+}
+
+/* tablet landscape queries */
+@media only screen and (min-width: 769px) and  (max-width: 1024px) {
+
+}
+
+/* laptop queries */
+@media only screen and (min-width: 1025px) and  (max-width: 1600px) {
+
+}
+
+/* desktop queries */
+@media only screen and (min-width: 1601px) {
+
+}
