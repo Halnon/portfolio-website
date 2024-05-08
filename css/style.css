@@ -73,8 +73,7 @@ nav a {
 }
 
 a:hover {
-    color:antiquewhite;
-    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 a:active {
