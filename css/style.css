@@ -7,13 +7,19 @@ html {
     text-align: justify;
     padding: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background: #CFCFCF;
+    background: radial-gradient(ellipse farthest-side at top left, #CFCFCF 22%, #AC9E98 50%, #6F0B0A 100%);
+
 }
 
 .container {
     position: relative;
     margin: 2em 2em;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+}
+
+hr {
+    border-color: #6F0B0A;
 }
 
 /* header styles */
@@ -33,9 +39,9 @@ nav {
     left: 0;
     right: 0;
     width: 100%;
+    background-color: rgb(255, 255, 255); opacity: 0.7;;
     z-index: 10;
-    background-color: rgb(255, 255, 255);
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 nav ul {
@@ -75,7 +81,8 @@ a:active {
     align-items: center;
     top: 5em;
     margin-bottom: 5.5rem;
-    outline: 2px solid red;
+    padding-left: 2rem;
+    /* outline: 2px solid red; */
 }
 
 #introduction img {
@@ -84,19 +91,20 @@ a:active {
     width: 30%;
     height: auto;
     border-radius: 50rem;
-    padding: 1rem;
+    box-shadow: 0px 0px 14px 11px rgba(128, 0, 0, 0.43);
 }
 
 #introduction h1 {
+    position: relative;
     font-size: 2rem;
-    padding: 3rem 1rem;
+    padding: 0 2rem;
     outline: 2px solid red;
 }
 
 #section-item {
     position: relative;
-    outline: 2px solid red;
     margin: 0 0.5rem;
+    /* outline: 2px solid red; */
 }
 
 /* my projects styles */
@@ -120,5 +128,5 @@ a:active {
 
 .skill--items i {
     font-size: 5rem;
-    color: brown;
+    color: #d38585;
 }
