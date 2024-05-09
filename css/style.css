@@ -49,7 +49,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    max-width: 100%;
     background-color: var(--secondary-color);
     opacity: 0.7;
     z-index: 10;
@@ -171,8 +171,45 @@ a:active {
 /* media queries */
 
 /* mobile queries */
-@media only screen and (min-width: 200px) and  (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-size: 0.5rem;
+    }
 
+    nav ul, nav ul a, 
+        #moon-icon, 
+        #introduction, 
+        #section-item {
+            padding: 0;
+    }
+
+    #moon-icon {
+        margin: 0;
+    }
+    
+    main {
+        margin-top: 5rem;
+    }
+
+    #introduction {
+        margin: 1rem;
+    }
+
+    #section-item {
+        margin: 0;
+    }
+
+    .skill--items i {
+        font-size: 3rem;
+    }
+    .contact--items i {
+        font-size: 3rem;
+    }
 }
 
 /* tablet portrait queries */
