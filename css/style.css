@@ -178,7 +178,7 @@ a:active {
     
     body {
         margin: 0;
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     nav ul, nav ul a, 
@@ -189,45 +189,230 @@ a:active {
     }
 
     #moon-icon {
+        position: relative;
+        left: 90%;
+        bottom: 20%;
         margin: 0;
     }
-    
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
     main {
         margin-top: 5rem;
     }
 
     #introduction {
-        margin: 1rem;
+        margin: 2rem 1rem;
+        padding-top: 2rem;
     }
 
     #section-item {
         margin: 0;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
     }
 
-    .skill--items i {
+    .skill--items i, .contact--items i {
         font-size: 3rem;
     }
-    .contact--items i {
-        font-size: 3rem;
+
+    #introduction h1 {
+        font-size: 1.4rem;
+    }
+
+    #introduction img {
+        height: auto;
+        max-width: 30%;
+        margin: 2rem 0;
     }
 }
 
 /* tablet portrait queries */
 @media only screen and (min-width: 481px) and  (max-width: 768px) {
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-size: 0.7rem;
+    }
 
+    nav ul, nav ul a, 
+        #moon-icon, 
+        #introduction, 
+        #section-item {
+            padding: 0;
+    }
+
+    #moon-icon {
+        position: relative;
+        bottom: 20%;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.3rem;
+        padding-top: 2.3rem;
+        margin: 0.5rem;
+    }
+
+    main {
+        margin-top: 5rem;
+    }
+
+    #introduction {
+        margin: 2rem 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-item {
+        margin: 0;
+        padding-right: 1rem;
+    }
+
+    .skill--items i, .contact--items i {
+        font-size: 2.7rem;
+    }
+
+    #introduction h1 {
+        font-size: 1.4rem;
+    }
+
+    #introduction img {
+        height: auto;
+        max-width: 30%;
+        margin: 2rem 0;
+    }
 }
 
 /* tablet landscape queries */
 @media only screen and (min-width: 769px) and  (max-width: 1024px) {
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-size: 1rem;
+    }
 
+    nav ul, nav ul a, 
+        #moon-icon, 
+        #introduction, 
+        #section-item {
+            padding: 0;
+    }
+
+    #moon-icon {
+        position: relative;
+        bottom: 20%;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.3rem;
+        padding-top: 2.3rem;
+        margin: 0.5rem;
+    }
+
+    main {
+        margin-top: 5rem;
+    }
+
+    #introduction {
+        margin: 2rem 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-item {
+        margin: 0;
+        padding-right: 1rem;
+    }
+
+    .skill--items i, .contact--items i {
+        font-size: 3.5rem;
+    }
+
+    #introduction h1 {
+        font-size: 2rem;
+    }
+
+    #introduction img {
+        height: auto;
+        max-width: 20%;
+        margin: 4rem 0;
+    }
 }
 
 /* laptop queries */
 @media only screen and (min-width: 1025px) and  (max-width: 1600px) {
+    html {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-size: 1rem;
+    }
 
-}
+    nav ul, nav ul a, 
+        #moon-icon, 
+        #introduction, 
+        #section-item {
+            padding: 0;
+    }
 
-/* desktop queries */
-@media only screen and (min-width: 1601px) {
+    #moon-icon {
+        position: relative;
+        bottom: 20%;
+        margin: 0;
+    }
 
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.3rem;
+        padding-top: 2.3rem;
+    }
+
+    main {
+        margin-top: 5rem;
+    }
+
+    #introduction {
+        position: relative;
+        top: 20%;
+        margin: 2rem 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #section-item {
+        margin: 0;
+        padding-right: 1rem;
+    }
+
+    .skill--items i, .contact--items i {
+        font-size: 3.5rem;
+    }
+
+    #introduction h1 {
+        font-size: 2rem;
+    }
+
+    #introduction img {
+        height: auto;
+        max-width: 20%;
+        margin: 4rem 0;
+    }
 }
