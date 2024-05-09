@@ -26,6 +26,7 @@ body {
 .container {
     position: relative;
     margin: 2em 2em;
+    color: var(--primary-color);
     /* outline: 2px solid red; */
 }
 
@@ -116,12 +117,14 @@ a:active {
     position: relative;
     font-size: 2rem;
     padding: 0 2rem;
+    color: var(--primary-color);
     /* outline: 2px solid red; */
 }
 
 #section-item {
     position: relative;
     margin: 0 0.5rem;
+    color: var(--primary-color);
     /* outline: 2px solid red; */
 }
 
